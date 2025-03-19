@@ -5,3 +5,8 @@
 #test_get_books_for_children: проверяет, что возвращает метод для получения книг без возрастного рейтинга.
 #test_add_and_delete_book_from_favorites: проверяет добавление и удаление книги из списка избранного.
 #test_get_list_of_favorites_books: проверяет получение списка избранных книг.
+#test_get_book_genre_with_special_characters: Проверяет, что метод get_book_genre корректно возвращает жанр для книги с названием, содержащим специальные символы.
+#test_get_book_genre_whitespace: Проверяет, что метод get_book_genre корректно работает с названиями книг, состоящими только из пробелов.
+#test_get_books_genre_with_varied_genres: Проверяет, что метод get_books_genre возвращает правильные жанры для множества книг с разными жанрами.
+#test_get_books_genre_no_genres_set: Проверяет, что метод get_books_genre возвращает пустые жанры для книг, у которых не установлены жанры.
+#test_get_books_genre_with_mixed_entries: Проверяет, что метод get_books_genre корректно возвращает жанры для книг, у которых некоторые имеют жанры, а у некоторых нет.
